@@ -45,8 +45,8 @@ ol, ul, li, fieldset, form, label, table, tbody, tfoot, thead, tr, th, td, artic
 details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio,
 video{margin:0;padding:0;border:0;outline:0;vertical-align:baseline;background:transparent;font-size:100%}
 html{overflow-y:scroll;overflow-x:hidden}
-html, body{height: 1920px; margin: 0 auto;}
-font-family: Arial;
+html, body{height: 100%; margin: 0 auto;}
+font-family: "PT Sans", "tahoma";
 input{
     outline: none;
 }
@@ -54,13 +54,12 @@ button{
     outline: none;
 }
 .wrapper{
-    min-width: 100%;
-    max-width: 1920px;
+    min-width: 1380px;
     width: 100%;
     height: auto;
-    margin: 0;
     padding: 0;
     margin: auto;
+    text-align: center;
 }
 a{
     text-decoration: none;
@@ -71,14 +70,14 @@ body{
 /*Шапка*/
 .nav_block{
     width: 100%;
-    max-width: 1920px;
+    min-width: 1240px;
     background-image: url(img/img_nav.png);
     -webkit-background-size: cover;
     height: 50px;
-    margin: auto;
+    margin: 0 auto;
 }
 .mainWrap{
-    width: 1240px;
+    width: 100%;
     margin: 0 auto;
     height: 100%;
 }
@@ -107,14 +106,13 @@ body{
     top: 8px;
     color: white;
     text-decoration: none;
-    font-family: ArialNarrowRegular;
+    font-family: "PT Sans", "tahoma";
     text-shadow: 5px 2px 3px black;
     font-size: 15px;
     font-weight: bold;
 }
 .headLogo{
     width: 100%;
-    max-width: 1920px;
     height: 518px;
     background-image: url(img/headLogo.png);
     -webkit-background-size: cover;
@@ -138,7 +136,7 @@ body{
     width: 100%;
 }
 .contactsHeader{
-    font-family: ArialNarrowRegular;
+    font-family: "PT Sans", "tahoma";
 }
 .min_text{
     font-size: 16px;
@@ -154,12 +152,12 @@ body{
     margin-top: 10px;
 }
 .zakazZvonka{
-    font-family: ArialNarrowRegular;
-    font-size: 30px;
+    font-family: "PT Sans", "tahoma";
+    font-size: 25px;
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
     color: rgb(231, 111, 14);
     border-bottom: 2px dotted black;
-    width: 200px;
+    width: 220px;
     margin: auto;
     margin-bottom: 10px;
     font-weight: bolder;
